@@ -1,0 +1,24 @@
+//* Variables *//
+
+$color-one: #F2A7C3;
+$color-two: #2C6CBF;
+$color-three: #88C9F2;
+$color-four: #6FBFB1;
+$color-five: #F2CD5C;
+$color-six: #0D0B0B;
+$font-title: 'Lato', sans-serif;
+$font-body: 'Biryani', sans-serif;
+$font-header: 'Questrial' sans-serif;
+
+h1 {
+    font-family: $font-title;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: $font-header;
+}
+
+p {
+    font-family: $font-body;
+}
