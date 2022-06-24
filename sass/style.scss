@@ -8,9 +8,26 @@ $color-five: #F2CD5C;
 $color-six: #0D0B0B;
 $font-title: 'Lato', sans-serif;
 $font-body: 'Biryani', sans-serif;
-$font-header: 'Questrial' sans-serif;
+$font-header: 'Questrial', sans-serif;
 
-h1 {
+//* Body*//
+
+body {
+    background-color: $color-three;
+}
+
+.container {
+
+}
+
+.column {
+    display: inline-block;
+    width: 700px;
+}
+
+//* Header *//
+
+h1, {
     font-family: $font-title;
     font-weight: 900;
 }
@@ -21,4 +38,34 @@ h2 {
 
 p {
     font-family: $font-body;
+}
+
+//* Buttons and Icons *//
+
+.btn {
+   font-size: 64px; 
+   background-color: $color-one;
+   color: $color-five;
+   border-radius: 50%;
+   border-style: none;
+   padding: 20px;
+   height: 90px;
+   width: 90px; 
+}
+
+.icon {
+    background-color: $color-one;
+   color: $color-five;
+   border-radius: 50%;
+   border-style: none;
+}
+
+.rules {
+    font-size: 26px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
 }
