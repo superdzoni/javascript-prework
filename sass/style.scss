@@ -43,29 +43,14 @@ p {
 //* Buttons and Icons *//
 
 .btn {
-   font-size: 64px; 
+   font-size: 48px; 
    background-color: $color-one;
    color: $color-five;
-   border-radius: 50%;
+   border-radius: 10%;
    border-style: none;
    padding: 20px;
-   height: 90px;
-   width: 90px; 
 }
 
-.icon {
-    background-color: $color-one;
-   color: $color-five;
-   border-radius: 50%;
-   border-style: none;
-}
-
-.rules {
-    font-size: 26px;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    padding: 5px;
-    vertical-align: middle;
+.btn-box {
+    display: inline-block;
 }
