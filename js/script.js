@@ -20,9 +20,9 @@ function buttonClicked(argButtonName) {
   displayResult(playerMove, computerMove);
 }
 
-buttonRock.addEventListener('click', function(){ buttonClicked('Guzik Kamień'); });
-buttonPaper.addEventListener('click', function(){ buttonClicked('Guzik Papier'); });
-buttonScissors.addEventListener('click', function(){ buttonClicked('Guzik Nożyce'); });
+buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
+buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
+buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
 /**
  * Describe this function...

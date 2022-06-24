@@ -1,11 +1,9 @@
 //* Variables *//
 
-$color-one: #F2A7C3;
-$color-two: #2C6CBF;
-$color-three: #88C9F2;
-$color-four: #6FBFB1;
-$color-five: #F2CD5C;
-$color-six: #0D0B0B;
+$color-one: #b8bac8;
+$color-two: #aa78a6;
+$color-three: #b4d6d3;
+$color-four: #0D0B0B;
 $font-title: 'Lato', sans-serif;
 $font-body: 'Biryani', sans-serif;
 $font-header: 'Questrial', sans-serif;
@@ -30,27 +28,58 @@ body {
 h1, {
     font-family: $font-title;
     font-weight: 900;
+    margin-top: 5px;
+    color: $color-two;
 }
 
 h2 {
     font-family: $font-header;
+    margin-bottom: 0;
+    color: $color-two;
 }
 
 p {
     font-family: $font-body;
+    font-size: 14px;
+    text-align: justify;
+    color: $color-four;
 }
 
-//* Buttons and Icons *//
+span {
+    font-weight: 600;
+}
+
+.column {
+    padding: 30px;
+}
+
+.rules {
+    max-width: 650px;
+}
+
+//* Buttons *//
 
 .btn {
    font-size: 48px; 
    background-color: $color-one;
-   color: $color-five;
-   border-radius: 10%;
+   color: $color-two;
+   border-radius: 5%;
    border-style: none;
    padding: 20px;
+   margin: 50px 10px;
+   font-family: $font-header;
+   font-weight: 900;
+}
+
+.wrapper {
+    display: flex;
 }
 
 .btn-box {
     display: inline-block;
+ 
+#messages {
+    font-family: $font-title;
+    color: $color-two;
+}    
 }
