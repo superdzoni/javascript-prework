@@ -14,10 +14,6 @@ body {
     background-color: $color-three;
 }
 
-.container {
-    display: flex;
-}
-
 .column {
     display: inline-block;
     width: 700px;
@@ -78,3 +74,41 @@ span {
 .btn-box {
     display: inline-block;
 }
+
+//* Media *//
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+    .wrapper {
+        display: flex;
+    }
+    .btn-box {
+       
+    }
+    .column {
+        padding: 0 10px;
+   
+    }
+    .btn {
+        font-size: 18px;
+        margin: 20px 5px;
+        padding: 12px 8px;
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 12px;
+        width: 250px;
+    }
+
+}    
