@@ -52,6 +52,8 @@ function displayResult(argPlayerMove, argComputerMove) {
     printMessage('Wygrywasz!');
   } else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
     printMessage('Wygrywasz!');
+  } else if (argPlayerMove == argComputerMove) {
+    printMessage('Remis');
   } else {
     printMessage('Przegrywasz :(');
   } 
